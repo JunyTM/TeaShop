@@ -1,0 +1,25 @@
+#slider {
+  position: relative;
+  margin-top: 46px;
+  padding-top: 50%;
+  background: url("./background_img/slider.jpg") top center / cover no-repeat;
+}
+
+#slider .text-content {
+  position: absolute;
+  bottom: 40px;
+  color: white;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+#slider .text-heading {
+  font-weight: 500; /*giảm độ dày*/
+  font-size: 24px;
+}
+
+#slider .text-decscription {
+  font-size: 15px;
+  margin-top: 25px;
+}

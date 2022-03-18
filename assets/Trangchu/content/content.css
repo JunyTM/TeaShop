@@ -1,0 +1,45 @@
+#content {
+}
+
+#content .content-section {
+  width: 800px;
+  padding: 64px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#content .section-sub-heading {
+  font-size: 13px;
+  text-align: center; /* căn giữa*/
+  margin-top: 15px;
+  font-style: italic; /*tạo chữ nghiêng*/
+  line-height: 1.6;
+  color: rgb(94, 91, 91);
+  padding: 0 195px;
+}
+
+#content .about-text p {
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: justify; /* căn dòng trong text bằng  nhau*/
+  line-height: 1.6; /*dãn dòng*/
+  color: rgb(59, 55, 55);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#content .drink-list {
+  margin-top: 40px;
+}
+
+#content .drink-name {
+  font-size: 15px;
+  color: #ad2e25;
+}
+
+#content .drink-info {
+  width: 154px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
