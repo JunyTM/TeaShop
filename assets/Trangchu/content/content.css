@@ -30,31 +30,41 @@
   background: url("./picture/anh1.jpg") top center / cover no-repeat;
    width: 100%;
   display: block;
-  height: 500px;
+  height: 800px;
   margin-top: 30px;
 }
+
 #content .content-section2 .heading{
-  width: 45%;
   margin-left: 25px;
-  padding-top: 40px;
+  height: 200px;
+  width: 1000px;
+  padding: 12px 50px;
   box-sizing: border-box;
+  display: block;
+
 }
 
 #content .heading h2{
-  color: #282828;
-  font-family: sans-serif;
+  font-family: 'UTM Bebas';
+  font-size: 40px;
+  line-height: normal;
   text-transform: uppercase;
 }
 .content-section2 .text_small{
-  margin-top: 16px;
-  margin-left: 12px;
+  
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 18px;
 }
 
 #content .content-section2 .wrap_item{
-  width: 45%;
+  width: 800px;
   margin-top: 25px;
-  margin-left: 30px;
+  margin-left: 40px;
+  height: 400px;
+  padding: 12px 50px;
   box-sizing: border-box;
+  
 }
 
 .service_item_ed .icon{
@@ -63,9 +73,10 @@
 
 .wrap_item .service_item_ed{
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .wrap_item .content_srv{
+  
   margin-left: 16px;
 }
 
@@ -82,9 +93,11 @@
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
+  
 }
 
 .service_item_ed .content_srv .content_service {
+  
   font-size: 16px;
 }
 
