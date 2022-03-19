@@ -36,15 +36,8 @@ html {
   font-size: 35px;
   text-align: center;
   font-weight: 500;
-  letter-spacing: 2px; /* dãn khoảng cách giữa các chữ*/
-}
-
-.title3 {
-  margin-top: 30px;
-  font-size: 25px;
-  text-align: center;
-  font-weight: 400;
-  /*letter-spacing: 1px ; /*dãn khoảng cách giữa các chữ*/
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px; /* dãn khoảng cách giữa các chữ*/
 }
 
 .row {
@@ -53,9 +46,8 @@ html {
 }
 
 .content-row {
-  margin-top: 60px;
   width: 800px;
-  padding: 64px 0;
+  padding: 30px 0;
 }
 
 .col {
