@@ -63,6 +63,10 @@ html {
   width: 33.333333%;
 }
 
+.col-four {
+  width: 25%;
+}
+
 .box-flex {
     display: flex;
 }
