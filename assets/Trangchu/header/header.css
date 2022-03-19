@@ -41,7 +41,7 @@
 
 #nav .subnav li:hover a {
     color: rgb(223, 139, 43);
-    /*background-color: #ccc;*/
+    background-color: #ccc;
 }
 
 #nav > li:hover > a {
@@ -78,7 +78,7 @@
 }
 
 #header .help-btn:hover {
-    background-color: #f44336;
+    background-color: rgb(223, 139, 43);
     cursor: pointer; /* đổi con trỏ sang hình bàn tay */
 }
 
