@@ -27,13 +27,13 @@
 }
 
 #content .content-section2{
-  padding: 90px 0 150px 0;
   background: url("./picture/anh1.jpg") top center / cover no-repeat;
    width: 100%;
   display: block;
   height: 800px;
   margin-top: 30px;
 }
+
 #content .content-section2 .heading{
   margin-left: 25px;
   height: 200px;
@@ -99,10 +99,7 @@
 .service_item_ed .content_srv .content_service {
   
   font-size: 16px;
-
 }
-
-
 
 #content .section-sub-heading {
   font-size: 13px;
@@ -126,6 +123,17 @@
 
 #content .drink-list {
   margin-top: 40px;
+}
+
+#content .product-info {
+  width: 154px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#content .product-info:hover {
+  transform: scale(1.1);
 }
 
 #content .item-product {
@@ -170,6 +178,8 @@
   width: 154px;
   display: inline-block;
   overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #content .drink-info:hover {
