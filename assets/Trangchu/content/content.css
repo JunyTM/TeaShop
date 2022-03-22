@@ -46,13 +46,13 @@
 }
 
 #content .heading h2{
-  font-family: 'UTM Bebas';
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
-  line-height: normal;
-  text-transform: uppercase;
+  /* line-height: normal; */
+  /* text-transform: uppercase; */
 }
 .content-section2 .text_small{
-  
+  font-family: 'Open Sans', sans-serif;
   margin-top: 30px;
   margin-left: 20px;
   font-size: 18px;
@@ -94,11 +94,11 @@
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
-  
+  font-family: 'Open Sans', sans-serif;
 }
 
 .service_item_ed .content_srv .content_service {
-  
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -131,6 +131,8 @@
   display: inline-block;
   overflow: hidden;
   border-radius: 10px;
+  min-height: 100px;
+  max-height: 100.7px;
 }
 
 #content .product-info:hover {
@@ -181,10 +183,14 @@
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
 }
 
 #content .drink-info:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 #content .price-box {

@@ -18,6 +18,10 @@ html {
 3. Màu sắc
 4. Kiểu dáng ( kiểu chữ)
 */
+body{
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
 
 #clear {
   clear: both; /*giải quyết vấn đề float*/
