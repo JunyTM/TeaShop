@@ -1,5 +1,7 @@
 #header {
     position: fixed;
+    /* display: flex; */
+    float: left;
     top: 0;
     left: 0;
     right: 0;
@@ -11,7 +13,7 @@
 
 #nav {  
     display: inline-block; 
-
+    width: 700px;
 }
 
 #nav > li {
@@ -68,22 +70,94 @@
     border-bottom: solid 1px #e5e6ec;
 }
 
+#header #icon-header{
+    margin-left: 200px;
+    right: 0;
+    padding: 0 30px;
+    float: right;
+
+}
+#icon-header li{
+    display: inline-block;
+    list-style-type: none;
+}
+#icon-header li a{
+    text-decoration: none; /* làm mất dấu gạch chân link*/
+    line-height: 46px; /*  căn chỉnh chữ ra giữa dòng */
+    padding: 0 24px;
+    color: white;
+    text-transform: uppercase;
+    /* text-align: right; */
+    display: block; /* căn chỉnh dòng chữ full thẻ*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#icon-header  li:hover  a {
+    color: #000;
+    background-color: #ccc;
+}
+
+/* #icon-header .searchhd:hover form {
+    display: block;
+} */
+
+/* #icon-header .searchhd form input {
+    position: absolute;
+    top: -41px;
+    z-index: 999;
+    left: -140px;
+    border-radius: 30px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 40px 0 15px;
+    min-height: 35px;
+    border: 0;
+    color: #282828;
+} */
+
+#icon-header .group_ac{
+    display: none;
+}
+
+#icon-header li:hover .group_ac{
+    display: block;
+    position: absolute;
+    top: 45px;
+    background: #fff;
+    padding: 1px;
+    z-index: 9999;
+    box-shadow: 0 0 15px -5px rgb(0 0 0 / 40%);
+    border-radius: 1px;
+
+}
+
+#icon-header  li:hover  a {
+    color: #000;
+    background-color: #fff;
+}
+
+#icon-header .group_ac a:hover {
+    color: #fff;
+    background-color: #ccc;
+}
+
+
+
 #nav .nav-arrow-down{
     font-size: 12px;
 }
 
-#header .help-btn {
+/* #header .help-btn {
     float: right;
     padding: 0 16px;
 }
 
 #header .help-btn:hover {
     background-color: #f44336;
-    cursor: pointer; /* đổi con trỏ sang hình bàn tay */
+    cursor: pointer;
 }
 
 #header .help-icon {
     color: white;
     font-size: 20px;
     line-height: 46px;
-}
+} */
