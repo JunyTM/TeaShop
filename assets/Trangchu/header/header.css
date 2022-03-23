@@ -71,16 +71,22 @@
 }
 
 #header #icon-header{
-    margin-left: 200px;
     right: 0;
     padding: 0 30px;
-    float: right;
+    display: inline-block;
+    position: absolute;
 
 }
+
 #icon-header li{
-    display: inline-block;
+    position: relative;
     list-style-type: none;
 }
+
+#icon-header > li {
+    display: inline-block;
+}
+
 #icon-header li a{
     text-decoration: none; /* làm mất dấu gạch chân link*/
     line-height: 46px; /*  căn chỉnh chữ ra giữa dòng */
