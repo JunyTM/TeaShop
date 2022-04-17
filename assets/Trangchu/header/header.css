@@ -83,7 +83,7 @@
     list-style-type: none;
 }
 
-#icon-header > li {
+#icon-header li {
     display: inline-block;
 }
 
@@ -91,7 +91,7 @@
     text-decoration: none; /* làm mất dấu gạch chân link*/
     line-height: 46px; /*  căn chỉnh chữ ra giữa dòng */
     padding: 0 24px;
-    color: white;
+    color: #fff;
     text-transform: uppercase;
     /* text-align: right; */
     display: block; /* căn chỉnh dòng chữ full thẻ*/
@@ -125,6 +125,7 @@
 }
 
 #icon-header li:hover .group_ac{
+    
     display: block;
     position: absolute;
     top: 45px;
