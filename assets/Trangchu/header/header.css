@@ -97,9 +97,9 @@
     display: block; /* căn chỉnh dòng chữ full thẻ*/
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#icon-header  li:hover  a {
+#icon-header  li:hover a {
     color: #000;
-    background-color: #ccc;
+    background-color: #fff;
 }
 
 /* #icon-header .searchhd:hover form {
@@ -129,6 +129,7 @@
     display: block;
     position: absolute;
     top: 45px;
+    color: #000;
     background: #fff;
     padding: 1px;
     z-index: 9999;
@@ -137,13 +138,13 @@
 
 }
 
-#icon-header  li:hover  a {
+#icon-header li:hover > a {
     color: #000;
-    background-color: #fff;
+    background-color: #ccc;
 }
 
 #icon-header .group_ac a:hover {
-    color: #fff;
+    color: rgb(223, 139, 43);;
     background-color: #ccc;
 }
 
@@ -160,7 +161,7 @@
 
 #header .help-btn:hover {
     background-color: rgb(223, 139, 43);
-    cursor: pointer; /* đổi con trỏ sang hình bàn tay */
+    cursor: pointer; /* đổi con trỏ sang hình bàn tay 
 }
 
 #header .help-icon {
