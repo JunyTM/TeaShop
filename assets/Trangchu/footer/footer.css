@@ -85,7 +85,7 @@
     font-weight: 500;
     margin-bottom: 20px;
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 32px;
 }
 .address a{
     text-decoration: none;
@@ -119,6 +119,7 @@
     position: relative;
     display: block;
     color: #4d8a54;
+    margin-left: 24px;
 }
 .title-pro p {
     color: #fff;
