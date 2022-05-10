@@ -30,6 +30,10 @@ function renderNewsSite(datas) {
     });
     rootElement.innerHTML = htmls.join('');
 }
+
+function GetDetail() {
+    const detalSite = document.getElementById("");
+}
 {/* <p>${data.attributes.Content}</p> */}
 
 
