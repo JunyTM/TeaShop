@@ -19,29 +19,43 @@
 .titleSite img {  
     width: 150px;
     height: 70px;
-    margin-top: 26px;
+    margin-top: 36px;
 }
 
 #newSite {
     margin-top: 100px;
 }
 
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 10%;
+}
 
 #root > li img {
-    width: 300px;
+    width: 70%;
+    height: 220px;
+    border-radius: 5%;
     position: absolute;
     bottom: 0;
 }
 
 #root > li h2 {
-    width: 80%;
-    color: rgb(127, 123, 123)
+    width: 70%;
+    color: rgb(127, 123, 123);
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 18px;
+    
 }
 
 #root > li {
-    width: 30%;
+    width: 20%;
     height: 360px;
-    margin-left: 20px;
+    margin-top: 50px;
     list-style-type: none;
     position: relative;
 }
+
