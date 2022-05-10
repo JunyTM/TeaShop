@@ -72,7 +72,6 @@
 
 #header #icon-header{
     right: 0;
-    padding: 0 30px;
     display: inline-block;
     position: absolute;
 
@@ -99,7 +98,7 @@
 }
 #icon-header  li:hover  a {
     color: #000;
-    background-color: #ccc;
+    background-color: #fff;
 }
 
 /* #icon-header .searchhd:hover form {
@@ -121,7 +120,14 @@
 } */
 
 #icon-header .group_ac{
-    display: none;
+    display: none;  /*ẩn list con */
+    min-width: 160px;
+    top: 100%;
+    left: 0; 
+    background-color: white;
+    list-style-type: none; /* bỏ kí hiệu hánh dấu của li */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* tạo bóng đổ */
+    
 }
 
 #icon-header li:hover .group_ac{
@@ -129,23 +135,30 @@
     display: block;
     position: absolute;
     top: 45px;
-    background: #fff;
-    padding: 1px;
+    background: #;
     z-index: 9999;
     box-shadow: 0 0 15px -5px rgb(0 0 0 / 40%);
     border-radius: 1px;
 
 }
 
-#icon-header  li:hover  a {
+#icon-header > li:hover > a {
     color: #000;
-    background-color: #fff;
+    background-color: #ccc;
+}
+
+#icon-header .group_ac a{
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+    border-bottom: solid 1px #fff;
 }
 
 #icon-header .group_ac a:hover {
-    color: #fff;
+    color: rgb(223, 139, 43);
     background-color: #ccc;
 }
+
 
 
 
@@ -160,11 +173,12 @@
 
 #header .help-btn:hover {
     background-color: rgb(223, 139, 43);
-    cursor: pointer; /* đổi con trỏ sang hình bàn tay */
+    cursor: pointer; /* đổi con trỏ sang hình bàn tay 
 }
 
 #header .help-icon {
     color: white;
     font-size: 20px;
     line-height: 46px;
-} */
+} 
+*/
