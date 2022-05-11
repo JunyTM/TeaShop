@@ -1,0 +1,109 @@
+
+.noi-dung{
+    display: block;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    height: 1000px;
+    margin-top: 30px;
+    margin-left: 35%;
+
+}
+.noi-dung .form{
+    width: 70%;
+}
+.noi-dung .form h2{
+    color: #414142;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #d9632c;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .noi-dung .form .input-form{
+    margin-bottom: 20px;
+}
+section .noi-dung .form .input-form span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #41506e;
+    letter-spacing: 1px;
+     }
+section .noi-dung .form .input-form input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #1b1e1f;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #2d383e;
+    background: transparent;
+    border-radius: 30px;
+    }
+section .noi-dung .form .input-form input[type="submit"]{
+    background: #e8700e;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+               0 2px 2px rgba(0,0,0,0.12),
+               0 4px 4px rgba(0,0,0,0.12),
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+section .noi-dung .form .input-form input[type="submit"]:hover{
+    background: #e18504;
+}
+section .noi-dung .form .nho-dang-nhap{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-size: 14px;
+}
+section .noi-dung .form .input-form p{
+    color: #607d8b;
+}
+section .noi-dung .form .input-form p a{
+    color: #f8631d;
+}
+section .noi-dung .form h3{
+    color: #20292d;
+    text-align: center;
+    margin: 20px 0 10px;
+    font-weight: 500;
+}
+
+.social-login--facebooks {
+    text-align: center !important;
+    width: 100% !important;
+    float: left !important;
+}
+
+.social-login--facebooks a {
+    display: inline-block !important;
+    height: 35px !important;
+    margin: 0 auto !important;
+}
+
+.text-link, a {
+    color: #282828;
+    text-decoration: none;
+    background: 0 0;
+}
+
+img {
+    border: 0 none;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
