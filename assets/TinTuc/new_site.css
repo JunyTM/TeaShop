@@ -4,6 +4,7 @@
 
 #newSite {
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .titleSite .headerSite {
@@ -20,10 +21,6 @@
     width: 150px;
     height: 70px;
     margin-top: 36px;
-}
-
-#newSite {
-    margin-top: 100px;
 }
 
 #root {
@@ -49,6 +46,11 @@
     text-align: justify;
     font-size: 18px;
     
+}
+
+#root > li :hover {
+    color: rgb(215, 37, 20);
+    height: 230px;
 }
 
 #root > li {
