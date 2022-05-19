@@ -60,3 +60,15 @@
     position: relative;
 }
 
+
+#detail pre {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+#detail .siteDetail h1 {
+    width: 70%;
+    color: rgb(127, 123, 123);
+    margin: 30px;
+    font-size: 50px;
+}

@@ -43,9 +43,11 @@ function GetDetail(res) {
            rootElement.remove();
            let html = `
             <div class="siteDetail"> 
-                <h2>${index.attributes.Title}</h2>
+                <h1>${index.attributes.Title}</h1>
                 <img src=${index.attributes.PhotoURL} alt="" />
-                <p> ${index.attributes.Content}</p>
+                <div class="content-site">
+                <pre>${index.attributes.Content}</pre>
+                </div>
             </div>
            `;
            rootDetail.innerHTML = html;
