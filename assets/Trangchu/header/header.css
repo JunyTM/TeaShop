@@ -97,9 +97,9 @@
     display: block; /* căn chỉnh dòng chữ full thẻ*/
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#icon-header  li:hover  a {
+#icon-header  li:hover a {
     color: #000;
-    background-color: #ccc;
+    background-color: #fff;
 }
 
 /* #icon-header .searchhd:hover form {
@@ -129,6 +129,7 @@
     display: block;
     position: absolute;
     top: 45px;
+    color: #000;
     background: #fff;
     padding: 1px;
     z-index: 9999;
@@ -137,15 +138,13 @@
 
 }
 
-#icon-header > li:hover > a {
+#icon-header li:hover > a {
     color: #000;
     background-color: #ccc;
 }
 
-
-
-#icon-header .group_ac  a:hover {
-    color: #fff;
+#icon-header .group_ac a:hover {
+    color: rgb(223, 139, 43);;
     background-color: #ccc;
 }
 
@@ -154,6 +153,27 @@
 #nav .nav-arrow-down{
     font-size: 12px;
 }
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal .modal-container{
+    background: #fff;
+    
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    /* animation: modalFadeIn ease .8s; */
+}
+
 
 /* #header .help-btn {
     float: right;
