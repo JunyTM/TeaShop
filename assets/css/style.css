@@ -55,6 +55,7 @@ body{
 }
 
 .col {
+  float: left;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -66,18 +67,25 @@ body{
 .col-third {
   width: 33.333333%;
 }
-
+.col-3{
+  width: 30%;
+  margin-left: 20px;
+}
 .col-four {
   width: 25%;
+}
+.col-footer {
+  width: 20%;
 }
 
 .box-flex {
     display: flex;
 }
 
-#main {
-    
+.open {
+  display: flex !important;
 }
+
 
 
 
