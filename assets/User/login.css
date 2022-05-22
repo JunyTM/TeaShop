@@ -33,6 +33,32 @@ section .noi-dung .form .input-form span{
     color: #41506e;
     letter-spacing: 1px;
      }
+section .noi-dung .form .input-form button{
+    width: 100%;
+    background: #e8700e;
+    border-radius: 20px;
+    border: 1px solid #1b1e1f;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+               0 2px 2px rgba(0,0,0,0.12),
+               0 4px 4px rgba(0,0,0,0.12),
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+    color: #2d383e;
+    letter-spacing: 1px;
+}
+
+section .noi-dung .form .input-form button a{
+    width: 100%;
+    font-size: 16px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding: 10px 20px;
+}
+section .noi-dung .form .input-form button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
 section .noi-dung .form .input-form input{
     width: 100%;
     padding: 10px 20px;

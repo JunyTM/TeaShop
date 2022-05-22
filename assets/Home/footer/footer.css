@@ -37,7 +37,7 @@
 }
 .icon-social li a{
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
 }
 .icon-social i {
     font-size: 24px;
