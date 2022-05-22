@@ -1,113 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/fonts/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="../Home/header/header.css">
-    <link rel="stylesheet" href="../Home/slider/slider.css">
-    <link rel="stylesheet" href="../Home/content/content.css">
-    <link rel="stylesheet" href="../Contact/contact.css">
-    <link rel="stylesheet" href="../User/login.css">
-    <link rel="stylesheet" href="../assets/Home/footer/footer.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../css/fonts/themify-icons/themify-icons.css"
+    />
+    <link rel="stylesheet" href="../Home/header/header.css" />
+    <link rel="stylesheet" href="../Home/slider/slider.css" />
+    <link rel="stylesheet" href="../Home/content/content.css" />
+    <link rel="stylesheet" href="../Contact/contact.css" />
+    <link rel="stylesheet" href="../User/login.css" />
+    <link rel="stylesheet" href="../assets/Home/footer/footer.css" />
+  </head>
+  <body>
     <div class="main">
-        <div id="header">
-            <ul id="nav">
-                <li><a href="../../index.html">Trang chủ</a></li>
-                <li><a href="../Introduction/index.html">Giới thiệu</a></li>
-                <li><a href="../News/index.html">Tin tức</a></li>
-                <li>
-                    <a href="../Product/index.html">
-                        Sản phẩm
-                        <i class="nav-arrow-down ti-angle-double-down"></i>
-                    </a>
-                    <ul class="subnav">
-                        <li><a href="">Cà phê</a></li>
-                        <li><a href="">Trà hoa quả </a></li>
-                        <li><a href="">Trà sữa </a></li>
-                        <li><a href="">Bánh ngọt</a></li>
-                    </ul>
-                </li>
-                <li><a href="../Contact/index.html">Liên hệ</a></li>
-
+      <div id="header">
+        <ul id="nav">
+          <li><a href="../../index.html">Trang chủ</a></li>
+          <li><a href="../Introduction/index.html">Giới thiệu</a></li>
+          <li><a href="../News/index.html">Tin tức</a></li>
+          <li>
+            <a href="../Product/index.html">
+              Sản phẩm
+              <i class="nav-arrow-down ti-angle-double-down"></i>
+            </a>
+            <ul class="subnav">
+              <li><a href="">Cà phê</a></li>
+              <li><a href="">Trà hoa quả </a></li>
+              <li><a href="">Trà sữa </a></li>
+              <li><a href="">Bánh ngọt</a></li>
             </ul>
-            <!-- End: nav -->
-                <!-- Begin: Search button, user and shopping -->
-                <!-- <div id="icon-header"> -->
-                    <ul id="icon-header">
-                        <li><a href="#">
-                            <i class="search-button ti-search"></i>
-                            Tìm kiếm</a>
-                            <!-- <form action="/search" method="get" class="input-group search-bar" role="search">
+          </li>
+          <li><a href="../Contact/index.html">Liên hệ</a></li>
+        </ul>
+        <!-- End: nav -->
+        <!-- Begin: Search button, user and shopping -->
+        <!-- <div id="icon-header"> -->
+        <ul id="icon-header">
+          <li>
+            <a href="#">
+              <i class="search-button ti-search"></i>
+              Tìm kiếm</a
+            >
+            <!-- <form action="/search" method="get" class="input-group search-bar" role="search">
 								<input type="text" name="query" value="" autocomplete="off" required="" placeholder="Tìm kiếm..." class="input-group-field auto-search">
 								<button type="submit" class=" btn icon-fallback-text">
 									<i class="fa fa-search"></i>      
 								</button>
 							</form> -->
-                        </li>
-                        <li><a href="#">
-                            <i class="user-button ti-user"></i>
-                            Tài Khoản</a>
-                            <div class="group_ac">
-								
-								<a class="button-signin js-button-signin" href="../User/login.html">Đăng nhập</a>
-								<a class="button-signup js-button-signup" href="../User/signin.html">Đăng ký</a>
-
-							</div>
-                        </li>
-                        <li><a href="#">
-                            <i class="shopping-button ti-shopping-cart"></i>
-                            Giỏ hàng</a>
-                        </li>
-                    </ul>
-                <!-- </div> -->
-                <!-- End : Search button -->
-                <section >
-                <div class="row">
-                    <div class="noi-dung">
-                        <div class="form">
-                            <h2>Đăng Nhập</h2>
-                            <form action="">
-                                <div class="input-form">
-                                    <span>Tên Người Dùng</span>
-                                    <input type="text" name="">
-                                </div>
-                                <div class="input-form">
-                                    <span>Mật Khẩu</span>
-                                    <input type="password" name="">
-                                </div>
-                                <div class="nho-dang-nhap">
-                                    <label><input type="checkbox" name=""> Nhớ Đăng Nhập</label>
-                                </div>
-                                <div class="input-form">
-                                    <input type="submit" value="Đăng Nhập">
-                                </div>
-                                <div class="input-form">
-                                    <p>Bạn Chưa Có Tài Khoản? <a href="./signin.html">Đăng Ký</a></p>
-                                </div>
-                            </form>
-                            <div class="block social-login--facebooks">
-                                <h3>Hoặc đăng nhập bằng</h3>
-                                <script>function loginFacebook(){var a={client_id:"947410958642584",redirect_uri:"https://store.mysapo.net/account/facebook_account_callback",state:JSON.stringify({redirect_url:window.location.href}),scope:"email",response_type:"code"},b="https://www.facebook.com/v3.2/dialog/oauth"+encodeURIParams(a,!0);window.location.href=b}function loginGoogle(){var a={client_id:"997675985899-pu3vhvc2rngfcuqgh5ddgt7mpibgrasr.apps.googleusercontent.com",redirect_uri:"https://store.mysapo.net/account/google_account_callback",scope:"email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile",access_type:"online",state:JSON.stringify({redirect_url:window.location.href}),response_type:"code"},b="https://accounts.google.com/o/oauth2/v2/auth"+encodeURIParams(a,!0);window.location.href=b}function encodeURIParams(a,b){var c=[];for(var d in a)if(a.hasOwnProperty(d)){var e=a[d];null!=e&&c.push(encodeURIComponent(d)+"="+encodeURIComponent(e))}return 0==c.length?"":(b?"?":"")+c.join("&")}</script>
-                                <a href="javascript:void(0)" class="social-login--facebook" onclick="loginFacebook()"><img width="129px" height="37px" alt="facebook-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg"></a>
-                                <a href="javascript:void(0)" class="social-login--google" onclick="loginGoogle()"><img width="129px" height="37px" alt="google-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/gp-btn.svg"></a>
-                            </div>
-
-                        </div>
-                    </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="user-button ti-user"></i>
+              Tài Khoản</a
+            >
+            <div class="group_ac">
+              <a
+                class="button-signin js-button-signin"
+                href="../User/login.html"
+                >Đăng nhập</a
+              >
+              <a
+                class="button-signup js-button-signup"
+                href="../User/signin.html"
+                >Đăng ký</a
+              >
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="shopping-button ti-shopping-cart"></i>
+              Giỏ hàng</a
+            >
+          </li>
+        </ul>
+        <!-- </div> -->
+        <!-- End : Search button -->
+        <section>
+          <div class="row">
+            <div class="noi-dung">
+              <div class="form">
+                <h2>Đăng Nhập</h2>
+                <form action="">
+                  <div class="input-form">
+                    <span>Tên Người Dùng</span>
+                    <input type="text" name="acount" />
+                  </div>
+                  <div class="input-form">
+                    <span>Mật Khẩu</span>
+                    <input type="password" name="password" />
+                  </div>
+                  <div class="nho-dang-nhap">
+                    <label
+                      ><input type="checkbox" name="" /> Nhớ Đăng Nhập</label
+                    >
+                  </div>
+                  <div class="input-form">
+                    <input type="submit" value="Đăng Nhập" />
+                  </div>
+                  <div class="input-form">
+                    <p>
+                      Bạn Chưa Có Tài Khoản? <a href="./signin.html">Đăng Ký</a>
+                    </p>
+                  </div>
+                </form>
+                <div class="block social-login--facebooks">
+                  <h3>Hoặc đăng nhập bằng</h3>
+                  <script>
+                    function loginFacebook() {
+                      var a = {
+                          client_id: "947410958642584",
+                          redirect_uri:
+                            "https://store.mysapo.net/account/facebook_account_callback",
+                          state: JSON.stringify({
+                            redirect_url: window.location.href,
+                          }),
+                          scope: "email",
+                          response_type: "code",
+                        },
+                        b =
+                          "https://www.facebook.com/v3.2/dialog/oauth" +
+                          encodeURIParams(a, !0);
+                      window.location.href = b;
+                    }
+                    function loginGoogle() {
+                      var a = {
+                          client_id:
+                            "997675985899-pu3vhvc2rngfcuqgh5ddgt7mpibgrasr.apps.googleusercontent.com",
+                          redirect_uri:
+                            "https://store.mysapo.net/account/google_account_callback",
+                          scope:
+                            "email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile",
+                          access_type: "online",
+                          state: JSON.stringify({
+                            redirect_url: window.location.href,
+                          }),
+                          response_type: "code",
+                        },
+                        b =
+                          "https://accounts.google.com/o/oauth2/v2/auth" +
+                          encodeURIParams(a, !0);
+                      window.location.href = b;
+                    }
+                    function encodeURIParams(a, b) {
+                      var c = [];
+                      for (var d in a)
+                        if (a.hasOwnProperty(d)) {
+                          var e = a[d];
+                          null != e &&
+                            c.push(
+                              encodeURIComponent(d) +
+                                "=" +
+                                encodeURIComponent(e)
+                            );
+                        }
+                      return 0 == c.length ? "" : (b ? "?" : "") + c.join("&");
+                    }
+                  </script>
+                  <a
+                    href="javascript:void(0)"
+                    class="social-login--facebook"
+                    onclick="loginFacebook()"
+                    ><img
+                      width="129px"
+                      height="37px"
+                      alt="facebook-login-button"
+                      src="//bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg"
+                  /></a>
+                  <a
+                    href="javascript:void(0)"
+                    class="social-login--google"
+                    onclick="loginGoogle()"
+                    ><img
+                      width="129px"
+                      height="37px"
+                      alt="google-login-button"
+                      src="//bizweb.dktcdn.net/assets/admin/images/login/gp-btn.svg"
+                  /></a>
                 </div>
-                </section>
-            
-
-        </div>
-
-
-        
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-</body>
+  </body>
 </html>
