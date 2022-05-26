@@ -8,6 +8,7 @@ const ProductAPI = 'http://localhost:1337/api/productions';
 
 function ResAPI() {
     GetProductions(RenderProduct);
+    GetProductions(GetDetail);
 }
 
 ResAPI();
@@ -30,8 +31,8 @@ function RenderProduct(res) {
         if (data.attributes.Class == "cafe") 
         return `
         <li class="item-${data.id}">
-            <h2>${data.attributes.Name}</h2>
-            <img src=${data.attributes.PhotoURL} alt="" />
+        <img src=${data.attributes.PhotoURL} alt="" />
+        <h2>${data.attributes.Name}</h2>
         </li>
         `;
     });
@@ -43,8 +44,8 @@ function RenderProduct(res) {
         if (data.attributes.Class == "fruit") 
         return `
         <li class="item-${data.id}">
-            <h2>${data.attributes.Name}</h2>
-            <img src=${data.attributes.PhotoURL} alt="" />
+        <img src=${data.attributes.PhotoURL} alt="" />
+        <h2>${data.attributes.Name}</h2>
         </li>
         `;
     });
@@ -56,8 +57,8 @@ function RenderProduct(res) {
         if (data.attributes.Class == "tea") 
         return `
         <li class="item-${data.id}">
-            <h2>${data.attributes.Name}</h2>
-            <img src=${data.attributes.PhotoURL} alt="" />
+        <img src=${data.attributes.PhotoURL} alt="" />
+        <h2>${data.attributes.Name}</h2>
         </li>
         `;
     });
@@ -69,8 +70,8 @@ function RenderProduct(res) {
         if (data.attributes.Class == "cake") 
         return `
         <li class="item-${data.id}">
-            <h2>${data.attributes.Name}</h2>
-            <img src=${data.attributes.PhotoURL} alt="" />
+        <img src=${data.attributes.PhotoURL} alt="" />
+        <h2>${data.attributes.Name}</h2>
         </li>
         `;
     });
@@ -89,14 +90,13 @@ function GetDetail(res) {
                 
                 <img src=${index.attributes.PhotoURL} alt="" />
                 <div class="content-site">
-                <h2>${index.attributes.Title}</h2>
-                <p>${index.attributes.Content}</p>
+                <p>${index.attributes.Introduce}</p>
+                <h2>${index.attributes.Name}</h2>
                 </div>
             </div>
            `;
            rootDetail.innerHTML = html;
         }
     }
-
 }
 

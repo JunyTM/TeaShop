@@ -43,7 +43,6 @@ function GetDetail(res) {
            rootElement.remove();
            let html = `
             <div class="siteDetail"> 
-                
                 <img src=${index.attributes.PhotoURL} alt="" />
                 <div class="content-site">
                 <h2>${index.attributes.Title}</h2>

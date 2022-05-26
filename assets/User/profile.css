@@ -1,0 +1,79 @@
+#profile{
+    display: block;
+    margin-top: 60px;
+}
+
+#profile .container{
+    width: 920px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container li a{
+    text-decoration: none;
+}
+.container li{
+    list-style: none;
+}
+
+.user-profile a{
+    color: #4d8a54;
+    font-weight: 500;
+}
+
+.container .box{
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+.box .block-account .title-account {
+    font-family: "Quicksand",sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #212B25;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.box .block-account p {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Quicksand",sans-serif;
+    line-height: 16px;
+    margin-bottom: 28px;
+    color: #212B25;
+    position: relative;
+}
+
+.block-account ul .title-info.active {
+    color: #4d8a54;
+}
+
+.block-account ul .title-info {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Quicksand",sans-serif;
+    color: #212B25;
+    margin-bottom: 22px;
+    display: block;
+}
+
+.infor-customer h1, .title-head {
+    font-size: 19px;
+    font-family: "Quicksand",sans-serif;
+    line-height: 22px;
+    font-weight: 400;
+    color: #212B25;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.infor-customer .name-account p {
+    font-size: 14px;
+    font-family: "Quicksand",sans-serif;
+    line-height: 16px;
+    margin-bottom: 40px;
+    color: #212B25;
+}
