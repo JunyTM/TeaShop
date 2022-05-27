@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../Home/header/header.css">
+    <link rel="stylesheet" href="../Home/slider/slider.css">
+    <link rel="stylesheet" href="../Home/content/content.css">
+    <link rel="stylesheet" href="../Contact/contact.css">
+    <link rel="stylesheet" href="../User/login.css">
+    <link rel="stylesheet" href="../Home/footer/footer.css">
+    <link rel="stylesheet" href="../User/signin.css">
+    <link rel="stylesheet" href="../User/cart.css">
+</head>
+<body>
+    <div class="main" >
+        <div id="header">
+            <ul id="nav">
+                <li><a href="../../index.html">Trang chủ</a></li>
+                <li><a href="../Introduction/index.html">Giới thiệu</a></li>
+                <li><a href="../News/index.html">Tin tức</a></li>
+                <li>
+                    <a href="../Product/index.html">
+                        Sản phẩm
+                        <i class="nav-arrow-down ti-angle-double-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Cà phê</a></li>
+                        <li><a href="">Trà hoa quả </a></li>
+                        <li><a href="">Trà sữa </a></li>
+                        <li><a href="">Bánh ngọt</a></li>
+                    </ul>
+                </li>
+                <li><a href="../Contact/index.html">Liên hệ</a></li>
+
+            </ul>
+            <!-- End: nav -->
+                <!-- Begin: Search button, user and shopping -->
+                <!-- <div id="icon-header"> -->
+                    <ul id="icon-header">
+                        <li><a href="#">
+                            <i class="search-button ti-search"></i>
+                            Tìm kiếm</a>
+                            <!-- <form action="/search" method="get" class="input-group search-bar" role="search">
+								<input type="text" name="query" value="" autocomplete="off" required="" placeholder="Tìm kiếm..." class="input-group-field auto-search">
+								<button type="submit" class=" btn icon-fallback-text">
+									<i class="fa fa-search"></i>      
+								</button>
+							</form> -->
+                        </li>
+                        <li><a href="#">
+                            <i class="user-button ti-user"></i>
+                            Tài Khoản</a>
+                            <div class="group_ac">
+								
+								<a class="button-signin js-button-signin" href="./login.html">Đăng nhập</a>
+								<a class="button-signup js-button-signup" href="./signin.html">Đăng ký</a>
+
+							</div>
+                        </li>
+                        <li><a href="#">
+                            <i class="shopping-button ti-shopping-cart"></i>
+                            Giỏ hàng</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+                            <div class="cart-row">
+                            <div class="cart-item cart-column">
+                                <img class="cart-item-image" src="..//css/img/Bánh Ngọt/tiramisu.jpg" width="200" height="200">
+                                <span class="cart-item-title">Tiramisu</span>
+                            </div>
+                            <span class="cart-price cart-column">25.000đ</span>
+                            <div class="cart-quantity cart-column">
+                                <input class="cart-quantity-input" type="number" value="1">
+                                <button class="btn btn-danger" type="button">Xóa</button>
+                            </div>
+                        </div>
+                        <div class="cart-row">
+                            <div class="cart-item cart-column">
+                                <img class="cart-item-image" src="..//css/img/Trà hoa quả/drink2.jpg" width="200" height="200">
+                                <span class="cart-item-title">Trà đào</span>
+                            </div>
+                            <span class="cart-price cart-column">35.000đ</span>
+                            <div class="cart-quantity cart-column">
+                                <input class="cart-quantity-input" type="number" value="2">
+                                <button class="btn btn-danger" type="button">Xóa</button>
+                            </div>
+                        </div>
+                        <div class="cart-row">
+                            <div class="cart-item cart-column">
+                                <img class="cart-item-image" src="..//css/img/Cà phê/macchiato.jpg" width="200" height="200">
+                                <span class="cart-item-title">Caramel macchiato</span>
+                            </div>
+                            <span class="cart-price cart-column">55.000đ</span>
+                            <div class="cart-quantity cart-column">
+                                <input class="cart-quantity-input" type="number" value="1">
+                                <button class="btn btn-danger" type="button">Xóa</button>
+                            </div>
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng tiền:</strong>
+                            <span class="cart-total-price">150 000đ</span>
+                        </div>
+                    </div> 
+                    
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer" href="../Product/index.html">Tiếp tục mua hàng </button>
+                        <button type="button" class="btn btn-primary order">Tiến hành thanh toán</button>
+                    </div>
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>
