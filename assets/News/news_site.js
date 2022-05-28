@@ -2,8 +2,8 @@ const rootElement = document.getElementById('root');
 const rootDetail = document.getElementById('detail');
 
 
-let newsAPI = 'http://localhost:1337/api/news-sites';
-
+// const newsAPI = 'http://localhost:1337/api/news-sites';
+const newsAPI = 'https://teahappy.herokuapp.com/api/productions';
 function start() {
     GetNewsSite(renderNewsSite);
     GetNewsSite(GetDetail);

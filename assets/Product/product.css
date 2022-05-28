@@ -58,20 +58,8 @@
     height: 200px;
     border-radius: 5px;
     border: 0.01px;
-    z-index: 2;
 }
 
-.col-warp button {
-    width: 170px;
-    height: 40px;
-    text-align: center;
-    color: #fff;
-    border: 1px solid #4d717d;
-    background-color: rgb(100, 177, 128);
-    z-index: 1;
-
-    /* display: none; */
-}
 
 .col-warp li:hover {
     transform: scale(1.05);

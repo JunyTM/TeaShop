@@ -4,7 +4,8 @@ const fruitElement = document.getElementById('fruit');
 const teaElement = document.getElementById('tea');
 const cakeElement = document.getElementById('cake');
 const rootDetail = document.getElementById('detail');
-const ProductAPI = 'http://localhost:1337/api/productions';
+// const ProductAPI = 'http://localhost:1337/api/productions';
+const ProductAPI = 'https://teahappy.herokuapp.com/api/productions';
 
 function ResAPI() {
     GetProductions(RenderProduct);
@@ -32,15 +33,12 @@ function RenderProduct(res) {
         return `
         <li class="item-${data.id}">
         <img src=${data.attributes.PhotoURL} alt="" />
-        <button>Thêm vào giở hàng</button>
         <div class="product-info">
 		    <h3 class="product-name">${data.attributes.Name}</h3>
 		    <div class="price-box">
 			    <span class="gia">Giá:</span> ${data.attributes.Cost}₫
 			</div>
 		</div>
-
-	</div>
         </li>
         `;
     });
@@ -53,7 +51,6 @@ function RenderProduct(res) {
         return `
         <li class="item-${data.id}">
         <img src=${data.attributes.PhotoURL} alt="" />
-        <button>Thêm vào giở hàng</button>
         <div class="product-info">
 		    <h3 class="product-name">${data.attributes.Name}</h3>
 		    <div class="price-box">
@@ -73,7 +70,6 @@ function RenderProduct(res) {
         return `
         <li class="item-${data.id}">
         <img src=${data.attributes.PhotoURL} alt="" />
-        <button>Thêm vào giở hàng</button>
         <div class="product-info">
 		    <h3 class="product-name">${data.attributes.Name}</h3>
 		    <div class="price-box">
@@ -92,7 +88,6 @@ function RenderProduct(res) {
         return `
         <li class="item-${data.id}">
         <img src=${data.attributes.PhotoURL} alt="" />
-        <button>Thêm vào giở hàng</button>
         <div class="product-info">
 		    <h3 class="product-name">${data.attributes.Name}</h3>
 		    <div class="price-box">
