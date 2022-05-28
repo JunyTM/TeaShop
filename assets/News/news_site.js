@@ -3,7 +3,7 @@ const rootDetail = document.getElementById('detail');
 
 
 // const newsAPI = 'http://localhost:1337/api/news-sites';
-const newsAPI = 'https://teahappy.herokuapp.com/api/productions';
+const newsAPI = 'https://teahappy.herokuapp.com/api/news-sites';
 function start() {
     GetNewsSite(renderNewsSite);
     GetNewsSite(GetDetail);
