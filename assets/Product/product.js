@@ -1,8 +1,8 @@
 const rootElement = document.getElementById('root');
-const cafeElement = document.querySelector('#root .cafe');
-const fruitElement = document.querySelector('#root .fruit');
-const teaElement = document.querySelector('#root .tea');
-const cakeElement = document.querySelector('#root .cake');
+const cafeElement = document.getElementById('cafe');
+const fruitElement = document.getElementById('fruit');
+const teaElement = document.getElementById('tea');
+const cakeElement = document.getElementById('cake');
 const rootDetail = document.getElementById('detail');
 const ProductAPI = 'http://localhost:1337/api/productions';
 
@@ -32,7 +32,15 @@ function RenderProduct(res) {
         return `
         <li class="item-${data.id}">
         <img src=${data.attributes.PhotoURL} alt="" />
-        <h2>${data.attributes.Name}</h2>
+        <button>Thêm vào giở hàng</button>
+        <div class="product-info">
+		    <h3 class="product-name">${data.attributes.Name}</h3>
+		    <div class="price-box">
+			    <span class="gia">Giá:</span> ${data.attributes.Cost}₫
+			</div>
+		</div>
+
+	</div>
         </li>
         `;
     });
@@ -45,7 +53,14 @@ function RenderProduct(res) {
         return `
         <li class="item-${data.id}">
         <img src=${data.attributes.PhotoURL} alt="" />
-        <h2>${data.attributes.Name}</h2>
+        <button>Thêm vào giở hàng</button>
+        <div class="product-info">
+		    <h3 class="product-name">${data.attributes.Name}</h3>
+		    <div class="price-box">
+			    <span class="gia">Giá:</span> ${data.attributes.Cost}₫
+			</div>
+		</div>
+
         </li>
         `;
     });
@@ -58,7 +73,13 @@ function RenderProduct(res) {
         return `
         <li class="item-${data.id}">
         <img src=${data.attributes.PhotoURL} alt="" />
-        <h2>${data.attributes.Name}</h2>
+        <button>Thêm vào giở hàng</button>
+        <div class="product-info">
+		    <h3 class="product-name">${data.attributes.Name}</h3>
+		    <div class="price-box">
+			    <span class="gia">Giá:</span> ${data.attributes.Cost}₫
+			</div>
+		</div>
         </li>
         `;
     });
@@ -71,7 +92,13 @@ function RenderProduct(res) {
         return `
         <li class="item-${data.id}">
         <img src=${data.attributes.PhotoURL} alt="" />
-        <h2>${data.attributes.Name}</h2>
+        <button>Thêm vào giở hàng</button>
+        <div class="product-info">
+		    <h3 class="product-name">${data.attributes.Name}</h3>
+		    <div class="price-box">
+			    <span class="gia">Giá:</span> ${data.attributes.Cost}₫
+			</div>
+		</div>
         </li>
         `;
     });
@@ -79,7 +106,6 @@ function RenderProduct(res) {
 }
 
 function GetDetail(res) {
-    
     for (let index of res.data) {
         const itemSite = document.querySelector('.item-'+index.id);
         
