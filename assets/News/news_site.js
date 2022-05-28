@@ -2,8 +2,8 @@ const rootElement = document.getElementById('root');
 const rootDetail = document.getElementById('detail');
 
 
-let newsAPI = 'http://localhost:1337/api/news-sites';
-
+// const newsAPI = 'http://localhost:1337/api/news-sites';
+const newsAPI = 'https://teahappy.herokuapp.com/api/productions';
 function start() {
     GetNewsSite(renderNewsSite);
     GetNewsSite(GetDetail);
@@ -43,10 +43,10 @@ function GetDetail(res) {
            rootElement.remove();
            let html = `
             <div class="siteDetail"> 
-                <h1>${index.attributes.Title}</h1>
                 <img src=${index.attributes.PhotoURL} alt="" />
                 <div class="content-site">
-                <pre>${index.attributes.Content}</pre>
+                <h2>${index.attributes.Title}</h2>
+                <p>${index.attributes.Content}</p>
                 </div>
             </div>
            `;
