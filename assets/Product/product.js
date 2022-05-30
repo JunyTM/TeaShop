@@ -107,17 +107,36 @@ function GetDetail(res) {
         itemSite.onclick = function () {
            rootElement.remove();
            let html = `
-            <div class="itemDetail"> 
-                
-                <img src=${index.attributes.PhotoURL} alt="" />
-                <div class="content-site">
-                <p>${index.attributes.Introduce}</p>
-                <h2>${index.attributes.Name}</h2>
+            <div class="row">
+                <div class="item-img">
+                    <img src=${index.attributes.PhotoURL} alt="" />
                 </div>
-            </div>
+                <div class="detail-info">
+                    <h1>${index.attributes.Name}</h1>
+                    <i>Mô tả đang cập nhật</i>
+                    <h2>Giá: <span>${index.attributes.Cost}₫</span></h2>
+                    <div class="detail-info-number-item">
+                        <span>Số lượng: </span>
+                        <input class="cart-quantity-input" type="number" value="1">
+                    </div>
+                    <div class="detail-button row">
+                        <a href="../User/cart.html" class="">
+                            <button class="detail-button-add ti-shopping-cart">
+                                <span>Thêm vào giỏ hàng</span>
+                            </button>
+                        </a>
+                        <a href="../User/cart.html" class="">  
+                            <button class="button-buy"><span>Mua ngay</span> </button>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="main-detail">
+                    <h2>Chi tiết sản phẩm</h2>
+                    <p>Vải là một loại quả được nhiều người yêu thích không chỉ khi ăn quả hay khi chế biến thành món trà vải thơm ngon. Nhân lúc mùa vải đang rộ các bạn hãy thử tự làm cho mình những cốc trà vải thật ngon để thưởng thức trong hè nha.</p>
+                </div>
            `;
            rootDetail.innerHTML = html;
         }
     }
 }
-

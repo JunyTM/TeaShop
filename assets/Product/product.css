@@ -5,6 +5,7 @@
 
 .headerItem {
     text-align: center;
+    background-image: url(../css/img/background/bg1.jpg);
 }
 
 .headerItem img {
@@ -65,8 +66,118 @@
     transform: scale(1.05);
 
 }
-/* 
-.cafe {
-    display: flex;
-} */
 
+#detail {
+    margin-top: 5%;
+}
+
+
+#detail .item-img {
+    width: 450px;
+    margin-left: 15%;
+}
+
+.item-img img {
+    width: 100%;
+    height: 450px;
+    box-shadow: 0 0 10px rgba(112, 109, 109, 0.5);
+}
+
+.detail-info {
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.detail-info h1{
+    color: #4e4949;
+    font-size: 30px;
+    line-height: normal;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.detail-info h2{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.detail-info h2 span{
+    color: rgb(26, 150, 72);
+    font-weight: 700;
+}
+
+.detail-info i {
+    font-style: italic;
+}
+
+.detail-info-number-item {
+    margin-top: 30px;
+}
+
+.detail-info .detail-button {
+    margin-top: 50px;
+}
+
+
+.detail-button-add {
+    width: 200px;
+    height: 48PX;
+    color: #4d8a54;
+    border: 1px solid #4d8a54;
+    border-radius: 10px;
+    text-align: center;
+    background: #f3fff4;
+    
+}
+
+.detail-button-add span {
+    line-height: 48px;
+    font-family: "Quicksand",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.detail-button-add:hover {
+    color: #fff;
+    background: #4d8a54;
+    cursor: pointer;
+    border-color: #4d8a54;
+}
+
+
+.detail-button .button-buy {
+    width: 200px;
+    height: 48PX;
+    margin-left: 25px;
+    color: #ffffff;
+    border: 1px solid #4d8a54;
+    border-radius: 10px;
+    text-align: center;
+    background: #4d8a54;
+}
+
+.button-buy span {
+    line-height: 48px;
+    font-family: "Quicksand",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button-buy:hover {
+    color: #fff;
+    background: #3b6940;
+    cursor: pointer;
+    border-color: #4d8a54;
+}
+
+.main-detail {
+    margin: 20px 14%;
+    line-height: 1.8;
+}
+
+.main-detail h2 {
+    margin-bottom: 20px;
+}
