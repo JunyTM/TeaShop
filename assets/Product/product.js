@@ -107,7 +107,7 @@ function GetDetail(res) {
         itemSite.onclick = function () {
            rootElement.remove();
            let html = `
-            <div class="row">
+            <div class="row2">
                 <div class="item-img">
                     <img src=${index.attributes.PhotoURL} alt="" />
                 </div>
@@ -119,7 +119,7 @@ function GetDetail(res) {
                         <span>Số lượng: </span>
                         <input class="cart-quantity-input" type="number" value="1">
                     </div>
-                    <div class="detail-button row">
+                    <div class="detail-button row2">
                         <a href="../User/cart.html" class="">
                             <button class="detail-button-add ti-shopping-cart">
                                 <span>Thêm vào giỏ hàng</span>
