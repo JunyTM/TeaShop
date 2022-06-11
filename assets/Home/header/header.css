@@ -99,13 +99,28 @@
 #icon-header  li:hover a {
     color: #000;
     background-color: #fff;
+    
 }
-
-/* #icon-header .searchhd:hover form {
-    display: block;
-} */
-
-/* #icon-header .searchhd form input {
+#icon-header .searchhd {
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    display: inline-block;
+}
+.searchhd span {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.searchhd form {
+    position: absolute;
+    width: 220px;
+    height: 45px;
+    margin-bottom: 0;
+    display: none;
+}
+.searchhd form input {
     position: absolute;
     top: -41px;
     z-index: 999;
@@ -117,7 +132,22 @@
     min-height: 35px;
     border: 0;
     color: #282828;
-} */
+}
+
+.searchhd form button {
+    position: absolute;
+    left: 50px;
+    top: -32px;
+    z-index: 999;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 0px;
+}
+#icon-header .searchhd:hover form {
+    display: block;
+}
+
 
 #icon-header .group_ac{
     display: none;  /*ẩn list con */
