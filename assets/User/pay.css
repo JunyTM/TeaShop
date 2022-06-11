@@ -55,8 +55,6 @@
   
   .btn {
     background-color: #f77d12;
-    color: white;
-    padding: 12px;
     margin: 10px 0;
     border: none;
     width: 100%;
@@ -64,9 +62,14 @@
     cursor: pointer;
     font-size: 17px;
   }
-  
+   .btn a{
+    color: white;
+    display: block;
+    padding: 8px;
+   }
+
   .btn:hover {
-    background-color: #3c3b36;
+    background-color: #67624b;
   }
   
   span.price {
