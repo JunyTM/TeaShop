@@ -125,7 +125,7 @@ function GetDetail(res) {
                                 <span>Thêm vào giỏ hàng</span>
                             </button>
                         </a>
-                        <a href="../User/cart.html" class="">  
+                        <a href="../User/pay.html" class="">  
                             <button class="button-buy"><span>Mua ngay</span> </button>
                         </a>
                     </div>
